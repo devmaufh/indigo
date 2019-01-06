@@ -1,9 +1,10 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Mauricio Flores
+bio: I am an engineering student in information technology and communications.
+
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: A blog about myself and programming stuffs 
 
 # if it's an external image, update below for true
 # better with square images
@@ -34,24 +35,24 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+facebook: mau.hernandez.1675
+#twitter: mytwitter
 # google: mygoogle
-# instagram: myinstagram
+instagram: mauricio_____h
 # pinterest: mypinterest
 # linkedin: mylinkedin
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: devmaufh
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+#medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: myemail@gmail.com
+email: mau1361317@gmail.com
 
 authors:
     johndoe:
