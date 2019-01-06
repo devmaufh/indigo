@@ -9,7 +9,7 @@ description: A blog about myself and programming stuffs
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/prof.jpg
+picture: assets/images/profile.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -17,7 +17,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://koppl.in/indigo
+url: https://devmaufh.github.io/indigo/
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -56,17 +56,17 @@ email: mau1361317@gmail.com
 
 authors:
     johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+        name: Mauricio Flores
+        bio: An engineering student in information technology and communications.
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
+        twitter: yas
     jamesfoster:
-        name: James Foster
+        name: Mauricio Flores
         bio: A Man who develops software with coffee
         external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+        picture: assets/images/profile.jpg
+        twitter: yas
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
