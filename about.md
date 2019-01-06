@@ -4,21 +4,11 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>My name is Mauricio, but you may call me Mau. I am studying an engineering in information technologies and communications at the <a href="http://www.itroque.edu.mx/">Tecnológico Nacional de México campus Roque<a>. I am currently studying the sixth semester of my career and i am very exited to finish.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Rigth now I am focused on completing the Github Campus Expert program. I would like to create a school community, contribute with my classmates in school projects, improve my own skills and make something to change and improve my school.</p>
 
-<h2>Skills</h2>
+<h2>My Skills</h2>
 
 <ul class="skill-list">
 	<li>Java</li>
@@ -33,7 +23,5 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <h2>Projects</h2>
 
 <ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
+	<li><a href="https://github.com/devmaufh/bot-ter">Simple facebook chatbot</a></li>
 </ul>
