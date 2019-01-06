@@ -23,5 +23,5 @@ layout: page
 <h2>Projects</h2>
 
 <ul>
-	<li><a href="https://github.com/devmaufh/bot-ter">Simple facebook chatbot</a></li>
+	<li><a href="https://github.com/devmaufh/chatbot-facebook">Simple facebook chatbot</a></li>
 </ul>
