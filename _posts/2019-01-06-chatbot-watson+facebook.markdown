@@ -16,11 +16,13 @@ externalLink: false
 The main idea of this project is show how to connect a facebook chatboot in NodeJS with Watson Assistant.
 
 ---
-What do you need?
+
+# What do you need?
 - NodeJS
 - Bluemix account
 - Facebook Page
 - Coffe
+
 ---
 
 # Step 1: Initilize your Node.js app
@@ -30,13 +32,11 @@ First of all you have to create a new directory for your Node.JS application. Op
 ```
 mkdir AnAwesomeName
 cd AnAwesomeName
-
 ```
 Then you have to run on command prompt this line:
 
 ```
 npm init
-
 ```
 
 # Step 2: Install Express.js in your application folder
@@ -45,7 +45,6 @@ While command prompt path stills in your Node.js application folder, run this li
 
 ```
 npm install express --save
-
 ```
 
 # Step 3: Start your favorite text editor (You can use [Visual Studio Code](https://code.visualstudio.com/) or [Atom](https://atom.io/))
@@ -53,7 +52,6 @@ npm install express --save
 Open index.js and replace all that contains with this code:
 
 ```javascript
-
 var bodyParser=require('body-parser');
 var request=require('request');
 var express = require('express');var watson = require('watson-developer-cloud');
@@ -63,11 +61,9 @@ var assistant = new watson.AssistantV1({
     version: '2018-07-10'
 });
 
-
 var app = express();
 app.use(bodyParser.json());
 const APP_TOKEN='Paste your Facebook token here';
-
 
 app.get('/', function (req, res) {
   res.send('Hello World!');
