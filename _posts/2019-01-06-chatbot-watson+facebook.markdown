@@ -188,7 +188,7 @@ Your package.json maybe looks like this:
 ---
 # Step 5: Configure Facebook pages
 
-Finilly you have to configure your webhook and your facebook token with that of your index.js
+Finally you have to configure your webhook and your facebook token with that of your index.js
 
 ---
 
