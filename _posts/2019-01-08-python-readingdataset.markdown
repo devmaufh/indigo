@@ -51,7 +51,7 @@ dataset=pd.read_csv(dataset_url)
 print(dataset.head())
 ```
 
-<img src="{{ site.url }}/assets/images/readingdatasethead.png" alt="dataset-head" title="A cute kitten"/>
+<img src="https://raw.githubusercontent.com/devmaufh/indigo/gh-pages/assets/images/readingdatasethead.PNG" alt="dataset-head" title="jiji"/>
 
 Or this to get data tail:
 ```python
