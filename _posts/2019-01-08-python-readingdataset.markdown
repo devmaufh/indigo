@@ -8,7 +8,7 @@ tag:
 - Python
 - Data
 category: blog
-author: Devmaufdh
+author: johndoe
 description: This is simple example for how to read a data set from a url using python and Pandas
 # jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
 ---
@@ -50,7 +50,7 @@ dataset=pd.read_csv(dataset_url)
 ```python
 print(dataset.head())
 ```
-![](/assets/images/readingdatasethead.png)
+![test code](/assets/images/readingdatasethead.png)
 
 Or this to get data tail:
 ```python
@@ -64,5 +64,6 @@ dataset_url="http://winterolympicsmedals.com/medals.csv"
 dataset=pd.read_csv(dataset_url)
 print(dataset.head())
 ```
+
 ---
 You can find this code on my [Github](https://github.com/devmaufh/data-science/blob/master/readingFromUrlPandas.py)
