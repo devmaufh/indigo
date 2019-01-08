@@ -42,7 +42,7 @@ Then we define the url of our data set, in this case i'm using a data set of win
 dataset_url="http://winterolympicsmedals.com/medals.csv"
 ```
 
-Now we have to make a read our data set with pandas, this is very easy beacause **Pandas** does all the hard work. So we onlye have to type this lines of code:
+Now we have to read our data set with pandas, this is very easy beacause **Pandas** does all the hard work. So we onlye have to type this lines of code:
 ```python
 dataset=pd.read_csv(dataset_url)
 ```
@@ -50,7 +50,7 @@ dataset=pd.read_csv(dataset_url)
 ```python
 print(dataset.head())
 ```
-![test code](/assets/images/readingdatasethead.png)
+![testcode](/assets/images/readingdatasethead.png "Test code")
 
 Or this to get data tail:
 ```python
