@@ -11,17 +11,13 @@ layout: page
 <h2>My Skills</h2>
 
 <ul class="skill-list">
-	<li>Java</li>
-	<li>Android</li>
+	<li>Flutter</li>
+	<li>Android (Java and kotlin)</li>
 	<li>Python (Still learning :D)</li>
-	<li>C# </li>
+	<li>PHP</li>
+	<li>Swift</li>
+	<li>C#</li>
 	<li>Git</li>
 	<li>MySQL - PostgreSQL - SQL Server</li>
 	<li>Scrum</li>
-</ul>
-
-<h2>Projects</h2>
-
-<ul>
-	<li><a href="https://github.com/devmaufh/chatbot-facebook">Simple facebook chatbot</a></li>
 </ul>
