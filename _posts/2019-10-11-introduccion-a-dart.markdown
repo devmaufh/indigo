@@ -5,8 +5,8 @@ date: 2019-10-10 10:50
 image: https://cdn-images-1.medium.com/max/1200/1*knHF_qpxdtS8h0Z8EeqowA.png
 headerImage: true
 tag:
-- Python
-- Data
+- Flutter
+- Dart
 category: blog
 author: johndoe
 description: This is simple example for how to read a data set from a url using python and Pandas
