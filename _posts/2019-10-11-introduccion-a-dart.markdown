@@ -140,9 +140,9 @@ List<tipo_dato> nombreLista = [valor1, valor2,valor3,valor4,... valor n]
 ```
 Ejemplo
 ```dart
-List<String> nombres = List<String>();
+List<String> nombres = List<String>(); //Sin valor inicial
 
-List<String> nombres = ['Mauricio','Pedro', 'Carlos'];
+List<String> nombres = ['Mauricio','Pedro', 'Carlos']; //Con valor inicial
 
 var nombres = ['Pedro', 'José', 'Miguel'];
 ```
@@ -152,4 +152,76 @@ Para añadir nuevos elementos a la lista después de declararla o inicializarla,
 Ejemplo
 ```dart
 nombres.add('Nuevo nombre');
+```
+
+### Mapas
+Los mapas son un tipo de estructura de datos que nos permite almacenar la información en pares **llave** - > **valor**.
+
+Ejemplo
+```dart
+var mapa = {}; //Sin valor inicial
+
+var mapa = {  //Con valor inicial
+    'valor1': 'valor 1',
+    'llave2': 'valor 2',
+    'valorEntero': 30,
+};
+
+```
+
+Es posible añadir nuevos elementos a un mapa de la siguiente manera:
+
+```dart
+mapa['nuevaLlave'] = 'Valor de la nueva llave';
+```
+
+## Estructuras de control
+Las estructuras de control son bloques de código que analizan variables y determinan como fluirán nuestros programas.
+
+### Condicionales
+
+#### If-else
+```dart
+if(condicion){
+    //Código a ejecutar si la condición se cumple
+}else{
+    //Código a ejecutar si la condición no se cumple
+}
+```
+
+#### Switch-case
+```dart
+switch(variable){
+    case 1: //Código caso 1
+    break;
+    case 2: //Código caso 2
+    break;
+    case n: 
+    break;
+
+    default: //Código que se ejecuta en si la variable no cumple ningún caso.
+  }
+```
+
+
+
+### Ciclos
+
+#### For
+```dart
+for(iterador = inicio; iterador <= limite; iterador ++){
+    //Código que se repetirá n cantidad de veces;
+} 
+```
+
+#### While y do While
+```dart
+while(condicion){
+    //codigo que se ejecuta mientras se cumpla la condición
+}
+
+
+do{
+    //Código que se ejecuta antes de evaluar la condición. Siempre se ejecuta al menos 1 vez.
+}while(condición)
 ```
